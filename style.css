@@ -1,10 +1,50 @@
 .name{
     font-size: 55px !important;
-    color:#fff !important;
+    color:#000 !important;
 }
 #about > div > div > div > a{
     width: 100%;
 }
 #about > div > div > div{
     margin-bottom: 10px;
+}
+
+.navbar-custom {
+    background: #CDDC39;
+    font-weight: 700;
+    border: none;
+}
+hr.star-light {
+    border-color: #000;
+}
+hr.star-light:after {
+    background-color: #000;
+    color: #fff;
+}
+header {
+    text-align: center;
+    background: #fff;
+}
+#about > div > div:nth-child(1) > div > hr{
+        border-color: #fff;
+}
+
+#about > div > div:nth-child(1) > div > hr:after{
+        background-color: #CDDC39;
+}
+section.success {
+    background: #CDDC39;
+    color: #fff;
+}
+.text-padding{
+        padding-top: 134px;
+}
+.setting-margin{
+        margin-bottom: 75px;
+}
+@media only screen and (max-device-width: 736px) and (min-device-width: 320px){
+    .text-padding{
+        padding-bottom : 134px;
+        padding-top: 0px;
+    }
 }
