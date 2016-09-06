@@ -2,10 +2,10 @@
     font-size: 55px !important;
     color:#000 !important;
 }
-#about > div > div > div > a{
+#f2f > div > div > div > a{
     width: 100%;
 }
-#about > div > div > div{
+#f2f > div > div > div{
     margin-bottom: 10px;
 }
 
@@ -25,12 +25,12 @@ header {
     text-align: center;
     background: #fff;
 }
-#about > div > div:nth-child(1) > div > hr{
-        border-color: #fff;
+#f2f > div > div:nth-child(1) > div > hr{
+        border-color: #fff !important;
 }
 
-#about > div > div:nth-child(1) > div > hr:after{
-        background-color: #CDDC39;
+#f2f > div > div:nth-child(1) > div > hr:after{
+        background-color: #CDDC39 !important;
 }
 section.success {
     background: #CDDC39;
@@ -47,4 +47,19 @@ section.success {
         padding-bottom : 134px;
         padding-top: 0px;
     }
+}
+.subs{
+    margin-bottom: 57px;
+    font-size: 20px;
+}
+#self-learning > div.row > div > a{
+        width: 100%;
+    font-size: 42px;
+    
+    color: #000;
+}
+
+.imgF2f{
+    width: 252px;
+    height: 252px;
 }
